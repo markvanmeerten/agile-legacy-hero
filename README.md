@@ -14,6 +14,8 @@ Maak eerst een eigen repository vanuit deze template. Werk daarna alleen in je e
 ## Docenten toegang geven
 
 Voeg na het aanmaken van je eigen repository de volgende GitHub-gebruikers toe als collaborator:
+
+Voor app:
 - `markvanmeerten`
 - `grifa12`
 
