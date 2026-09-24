@@ -54,9 +54,6 @@ public class Form1 : Form
 
         if (TryInitializeApi())
         {
-            TryRunApiAction(LoadReserveringen);
-            TryRunApiAction(LoadOverzicht);
-            TryRunApiAction(LoadGegevens);
             SetStatus("Klaar.");
         }
         else
@@ -575,7 +572,6 @@ public class Form1 : Form
         }
 
         LoadGegevens();
-        LoadOverzicht();
     }
 
     private GegevensDialog? MaakGegevensDialog(string soort, string? key)
@@ -659,7 +655,6 @@ public class Form1 : Form
             }
 
             LoadGegevens();
-            LoadOverzicht();
             SetStatus("Gegevens verwijderd.");
         }
         catch (ApiUnavailableException)
